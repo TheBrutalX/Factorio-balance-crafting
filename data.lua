@@ -56,7 +56,7 @@ data:extend({
         results = {
             { type = "item", name = "steel-furnace", amount = 1}
         },
-        energy_required = 3
+        energy_required = 1
     }
 })
 table.insert(data.raw["technology"]["advanced-material-processing"].effects, {
@@ -77,7 +77,7 @@ data:extend({
         results = {
             { type = "item", name = "electric-furnace", amount = 1}
         },
-        energy_required = 5,
+        energy_required = 1,
     }
 })
 table.insert(data.raw["technology"]["advanced-material-processing-2"].effects, {
@@ -98,7 +98,7 @@ data:extend({
         results = {
             { type = "item", name = "medium-electric-pole", amount = 1}
         },
-        energy_required = 5,
+        energy_required = 1,
     }
 })
 table.insert(data.raw["technology"]["electric-energy-distribution-1"].effects, {
